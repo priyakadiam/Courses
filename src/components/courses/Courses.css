@@ -1,0 +1,42 @@
+/* courses.css */
+
+.custom-card {
+    border: 1px solid #ced4da; /* Add a border to the card */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure overflow doesn't break the design */
+  
+    /* Set initial box shadow to create a shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add a smooth transition for hover effect */
+  }
+  
+  .custom-card:hover {
+    border-color: #007bff; /* Change border color on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
+  }
+  
+  .custom-card .card-body {
+    padding: 1.25rem; /* Add padding to the card body */
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.25rem; /* Increase font size for card title */
+    margin-bottom: 0.75rem; /* Add spacing at the bottom of the title */
+  }
+  
+  .custom-card .card-text {
+    font-size: 1rem; /* Set font size for card text */
+    color: #6c757d; /* Set text color */
+  }
+  
+  .custom-card .btn {
+    background-color: #28a745; /* Set button background color */
+    border-color: #28a745; /* Set button border color */
+  }
+  
+  .custom-card .btn:hover {
+    background-color: #218838; /* Change button background color on hover */
+    border-color: #218838; /* Change button border color on hover */
+  }
+  

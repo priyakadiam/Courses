@@ -1,0 +1,13 @@
+courses = [
+    React, 
+    Angular, 
+    Python, 
+    Selenium with Python,
+    Java,
+    Selenium with Java, 
+    SDET, 
+    SQL Concepts, 
+    Data Science, 
+    API Testing, 
+    Manual Testing
+]
